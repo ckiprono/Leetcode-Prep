@@ -1,0 +1,15 @@
+Sliding Window invloves dealing with subarrays of a larger array.
+For instance, if we have an array [1,2,3,4,5], some of its subarrays include [1,2], [2,3]....we maintain the order.
+The name window stems from 'subarray'. 
+The template for dealing with sliding window problems is as follows
+
+def fun(arr):
+    n=len(arr)
+    left=0
+    for right in range(0,n-1):
+        #Do some logic that adds arr[right] to the window
+
+        while window is Invalid:
+            #Do some logic to "remove" element at arr[left] from window
+            left+=1
+        #Do some logic to update the answer
